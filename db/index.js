@@ -42,7 +42,6 @@ class DB {
 
   // "addEmployee" function to add to "employee" table
   addEmployee(employee) {
-    console.log(employee);
     return this.connection.promise().query(
       "INSERT INTO employee SET ?", employee
     );

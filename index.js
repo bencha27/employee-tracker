@@ -174,7 +174,7 @@ function addRole() {
           db.addRole(input)
           .then(() => {
             console.log("\n");
-            console.log(`Added ${input.roleTitle} to role database`);
+            console.log(`Added ${input.title} to role database`);
           })
           .then(() => loadPrompts());
         })
@@ -239,7 +239,7 @@ function addEmployee() {
               db.addEmployee(input)
               .then(() => {
                 console.log("\n");
-                console.log(`Added ${input.roleTitle} to employee database`);
+                console.log(`Added ${input.first_name} ${input.last_name} to employee database`);
               })
               .then(() => loadPrompts());
             })

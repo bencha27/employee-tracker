@@ -30,7 +30,7 @@ GIVEN a command-line application that accepts user input
 ## Tasks
 
 - [ ] SQL
-  - [ ] schema.sql
+  - [x] schema.sql
     - [x] Database
     - [x] Tables
       - [x] department
@@ -41,15 +41,16 @@ GIVEN a command-line application that accepts user input
       - [x] employee
         - [x] PRIMARY KEY
         - [x] FOREIGN KEYS
-  - [ ] seeds.sql
-  - [ ] query.sql
-    - [ ] View all departments
-    - [ ] View all roles
-    - [ ] View all employees
-    - [ ] Add a department
-    - [ ] Add a role
-    - [ ] Add an employee
-    - [ ] Update an employee role
-    - [ ] \*Class functions
-- [ ] Inquirer
-- [ ] \*ASCII Art
+  - [x] seeds.sql
+  - [x] query.sql
+    - [x] View all departments
+    - [x] View all roles
+    - [x] View all employees
+    - [x] Add a department
+    - [x] Add a role
+    - [x] Add an employee
+    - [x] Update an employee's role
+    - [x] Update an employee's manager
+    - [x] Class functions
+- [x] Inquirer
+- [x] ASCII Art
