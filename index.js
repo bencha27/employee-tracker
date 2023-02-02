@@ -1,12 +1,16 @@
 const inq = require("inquirer");
 const db = require("./db");
 const consoleTable = require("console.table");
+const logo = require("asciiart-logo");
+const config = require("./package.json");
 
 // Initialize app
 init();
 
-// "init" function to initialize app (load prompts)
+// "init" function to initialize app (render logo, load prompts)
 function init() {
+  console.log(logo(config).render());
+
   loadPrompts();
 }
 
