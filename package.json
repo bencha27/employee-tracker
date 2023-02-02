@@ -1,0 +1,23 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application for managing employee database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencha27/employee-tracker.git"
+  },
+  "author": "Benjamin Cha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencha27/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/bencha27/employee-tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.1.0"
+  }
+}
