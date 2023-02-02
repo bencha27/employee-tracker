@@ -9,6 +9,7 @@ A command-line application for managing an employee database
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Roadmap](#roadmap)
 - [Questions](#questions)
 
 ## Installation
