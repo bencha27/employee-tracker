@@ -31,16 +31,16 @@ GIVEN a command-line application that accepts user input
 
 - [ ] SQL
   - [ ] schema.sql
-    - [ ] Database
-    - [ ] Tables
-      - [ ] department
-        - [ ] PRIMARY KEY
-      - [ ] role
-        - [ ] PRIMARY KEY
-        - [ ] FOREIGN KEY
-      - [ ] employee
-        - [ ] PRIMARY KEY
-        - [ ] FOREIGN KEY
+    - [x] Database
+    - [x] Tables
+      - [x] department
+        - [x] PRIMARY KEY
+      - [x] role
+        - [x] PRIMARY KEY
+        - [x] FOREIGN KEY
+      - [x] employee
+        - [x] PRIMARY KEY
+        - [x] FOREIGN KEYS
   - [ ] seeds.sql
   - [ ] query.sql
     - [ ] View all departments
